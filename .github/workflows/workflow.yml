@@ -21,5 +21,4 @@ jobs:
         uses: suo/flake8-github-action@releases/v1
         with:
           checkName: 'test'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
